@@ -23,12 +23,22 @@ https://www.geeksforgeeks.org/difference-between-call-by-value-and-call-by-refer
 
 ## Typed languages
 
+Type checking is the process of verifying and enforcing the constraints of types.
+
+**Javascript is a dynamically typed language.**
+
 ### Statically typed languages
 
 - Type checking at compile-time.
-- Examples: Java, C, C++.
+- Examples: Java, C, C++,Typescript.
 
 ### Dynamically typed languages
 
 - Type checking at run-time.
 - Examples: Perl, Ruby, Python, PHP, JavaScript.
+
+https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages
+
+### Type of Operator Results
+
+https://262.ecma-international.org/5.1/#sec-11.4.3
