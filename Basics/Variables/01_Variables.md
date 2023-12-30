@@ -2,7 +2,7 @@
 
 Variable is usually used to store data
 
-```
+```js
 const accountId = 66060;
 
 var accountNo = 575757;
@@ -16,7 +16,7 @@ Prefer not to use var because of issues in block scope & functional scope.
 
 ### How to change a value assigned to a variable
 
-```
+```js
 const accountId = 66060;
 accountId =777 //not alllowed
 
