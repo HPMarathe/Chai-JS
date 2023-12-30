@@ -42,3 +42,34 @@ https://stackoverflow.com/questions/1517582/what-is-the-difference-between-stati
 ### Type of Operator Results
 
 https://262.ecma-international.org/5.1/#sec-11.4.3
+
+### Stack vs Heap Memory
+
+![image](https://github.com/HPMarathe/Chai-and-JS/assets/105854654/da191a96-1fad-489c-b52b-e7ad2f14b7b3)
+
+- Primitive data types store value in Stack.
+
+```js
+let myName = "hrushikesh";
+let yourName = myName;
+yourName = "Marathe";
+
+console.log(myName); // "hrushikesh";
+console.log(yourName); //Marathe
+```
+
+- Non-Primitive data types store value in heap.
+
+```js
+let userOne = {
+  name: "hrushikesh",
+  email: "hrushi@gmail.com",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "hrushi@atlassian.com";
+
+console.log(userOne);
+// { name: 'hrushikesh', email: 'hrushi@atlassian.com' }
+```
